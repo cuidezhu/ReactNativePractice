@@ -8,6 +8,7 @@ export default class FlexDirectionBasics extends Component {
         flex: 1, 
         flexDirection: 'column',
         justifyContent: 'space-between',
+        alignItems: 'center',
       }}>
         <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />
         <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} />
